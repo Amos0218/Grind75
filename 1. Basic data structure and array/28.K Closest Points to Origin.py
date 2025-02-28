@@ -1,3 +1,5 @@
+# 找到距離原點 (0,0) 最近的 k 個點，並使用 最小堆（Min Heap）
+
 import heapq
 from typing import List
 
@@ -14,14 +16,14 @@ class Solution:
         # 把堆中最接近原點的 K 個點取出
         result = []
         for _ in range(k):
-            result.append(heapq.heappop(heap)[1])  # 取出點的座標
+            result.append(heapq.heappop(heap)[1])  # 把距離最小的k個點的座標放進result
         
         return result
 
 ##題目重點
 # 1.heapq.heappush(heap, item)：這是 Python 標準庫中 heapq 模組的一個函數，
 #  用來將資料 item 加入到堆 heap 中，並自動保持堆的排序特性（最小堆）。
-#  也就是說，每次插入資料後，堆中最小的元素會排在最前面   
+#  也就是說，每次插入資料後，最小的元素總是在堆頂（也就是第一個元素）
 
 # 2.heapq.heappop(heap)：這是 heapq 模組中的另一個函數，它會從堆中取出最小的元素並移除它。
 # 因為堆是最小堆，所以這會取出距離原點最近的元素

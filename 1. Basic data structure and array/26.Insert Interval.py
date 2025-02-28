@@ -1,3 +1,5 @@
+# 在給定的區間列表 intervals 中插入一個新的區間 newInterval，並確保結果仍然是「不重疊的排序區間」
+
 from typing import List
 
 class Solution:

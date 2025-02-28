@@ -1,11 +1,13 @@
+# 回傳「無重複字符的最長子串」的長度
+
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         max_length = 0  # 用來記錄最長不重複子字串的長度
-        left = 0  # 左指針，表示當前子字串的起點
+        left = 0  # 左指針
         seen = set()  # 用來存放當前視窗內的字母，避免重複
         
         for right in range(len(s)):   # 右指針向右移動
-            while s[right] in seen:   #直到沒有重複的字母
+            while s[right] in seen:   # 有重複的字母的話
                 seen.remove(s[left])  # 移除左邊界的字母
                 left += 1   #移動左指針縮小視窗
             
