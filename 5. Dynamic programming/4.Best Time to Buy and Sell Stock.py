@@ -15,7 +15,7 @@ class Solution:
 
     
 ##題目重點
-# coder常常用 float('inf') 或 float('-inf') 來初始化「極端大或極端小的數字」
+# 高手在寫程式時常常用 float('inf') 或 float('-inf') 來初始化「極端大或極端小的數字」
 
 
 
