@@ -30,8 +30,7 @@ class Solution:
         # 4️⃣ 如果修過的課程數等於總課程數，則可以修完所有課程
         return count == numCourses
     
-##題目重點
-     
+##題目重點     
 #  1. prerequisites: List[List[int]], 先修課程對應關係 [a, b]，表示「要修 a 必須先修 b 」
 #  在 4️⃣ 中，如果回傳為
 #   • True → 所有課程都能修完，即 圖中無環 。
