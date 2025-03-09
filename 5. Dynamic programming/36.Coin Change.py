@@ -1,3 +1,6 @@
+#給定不同面額的硬幣和一個目標金額，請你計算並返回可以組成該金額所需的最少硬幣數量。
+# 如果那個金額不能被組成，返回 -1
+
 from typing import List
 
 class Solution:

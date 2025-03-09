@@ -1,3 +1,5 @@
+#建立一個 Trie（前綴樹）
+
 from collections import defaultdict
 
 class TrieNode:

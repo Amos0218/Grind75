@@ -1,3 +1,4 @@
+# 設計一個支援以下操作的堆疊
 class MinStack:
 
     def __init__(self):

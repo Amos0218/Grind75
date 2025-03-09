@@ -1,3 +1,6 @@
+#給定 numCourses（課程數量）和 prerequisites（先修課程的列表)
+#判斷能否完成課程
+
 from typing import List
 
 class Solution:

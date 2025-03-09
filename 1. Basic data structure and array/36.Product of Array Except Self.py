@@ -1,3 +1,6 @@
+#給定一個整數數組 nums，要求你計算一個新數組 output，
+# 其中 output[i] 是nums中除了 nums[i] 本身以外所有元素的乘積。
+
 from typing import List
 
 class Solution:
